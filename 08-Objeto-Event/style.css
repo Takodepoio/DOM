@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;/* 100% VIEW PPORT */     
+    color: cadetblue;
+    background-color: rgb(23, 1, 44);
+    display: flex;
+    flex-direction: column;
+     
+}
+.title{
+    margin-bottom: 1rem;
+}
+.boton{
+    padding: 12px 24px;
+    border-radius: 48px;
+    border-radius: 48px;
+    border:none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(194, 88, 255);
+    background-color: rgb(102, 59, 150);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.button.hover{
+ background-color: whitesmoke;
+ scale: 1.1;
+ transition: all .3s ease;
+}
+.boton.active {
+    color: whitesmoke;
+    background-color: black;
+    scale: 1;
+    transition: all .3s ease;
+}
