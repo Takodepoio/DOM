@@ -13,15 +13,23 @@
 
      <!-- bootstrap -->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+     <link rel="icon" href="favicon.png" type="image/png"/>
 </head>
 <body>
     <div class="container">
+        
         <h1 class="title">Lista tareas</h1>
-        <input type="text" placeolder = "Ecribe tu próoxima tarea..."/>
-        <button type="submit">crear Tarea</button>
-        <div class="lista tareas">
-            <div class="tarea">
+        <input id="taskInput" type="text" placeolder = "Ecribe tu próoxima tarea..."/>
+        <button id="addButton" type="submit">crear Tarea</button>
+        <div class="task-list">
+            <div class="task">
                 <p>Estudiar</p>
+            </div>
+            <div class="task-complete"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dicta, quidem temporibus blanditiis consectetur animi ad nesciunt aliquam perspiciatis cum atque magnam autem beatae natus doloribus placeat! Animi, fugit suscipit.</p>
+            <div class="task-icons">
+                <i class="bi bi-check icon-complete"></i>
+                <i class="bi bi-trash icon-delete"></i>
             </div>
         </div>
     </div>
