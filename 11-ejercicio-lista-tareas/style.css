@@ -87,3 +87,7 @@ body{
 .icon-delete-hover{
   color: red;
 }
+.complete{
+  background-color: rgb(21, 0, 40);
+  color: palevioletred;
+}
